@@ -42,7 +42,7 @@ public class Midpoint_Line_Drawing_Algorithm implements GLEventListener{
       final GL2 gl = drawable.getGL().getGL2();
        	  gl.glBegin (GL2.GL_POINTS);//static field
        	  try {
-       		Scanner s = new Scanner(new File("input.txt"));
+       		Scanner s = new Scanner(new File("Midpoint_Line_Drawing_Algorithm_Input.txt"));
             double x0 =0.0;
             double y0=0.0;
             double x1=0.0;
